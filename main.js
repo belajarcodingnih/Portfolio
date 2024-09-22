@@ -12,3 +12,23 @@ if ($(target).hasClass("active")) {
 $(detail).slideToggle()
 
 }
+
+function onFormSubmit (e) {
+    e.preventDefault()
+    const email = $("#input_email")
+    const subject = $ ("#input_subject")
+    const massage = $ ("#input_massage")
+
+    if (!$(email).val()) {
+        alert("Email is required")
+    } else if (!$(subject).val()) {
+        alert("Subject is required")
+    } else if (!$(massage).val()) {
+        alert("Massage is required")
+    } else {
+        $(email).val("")
+        $(subject).val("")
+        $(massage).val("")
+        alert("Form submitted!")
+    }
+}

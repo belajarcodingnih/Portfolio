@@ -68,8 +68,7 @@ section::before {
     z-index: -1;
     content: '';
     font-size: 72px;
-    color: grey;
-    opacity: 0.25;
+    color: gray;
     position: absolute;
     font-weight: 700;
     top: 20px;
@@ -133,4 +132,21 @@ section::before {
 
 #work-3:hover::after {
     content: 'Front End';
+}
+
+.contact::before {
+    content: 'contact';
+}
+
+.contact-form {
+    border: 1px solid black;
+    padding: 63px 30px;
+}
+
+.contact {
+    padding-bottom: 128px;
+}
+
+.form-label {
+    font-weight: 700;
 }
