@@ -17,30 +17,30 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Work</a>
+                <a class="nav-link" href="#work">Work</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
         </div>
     </nav>
     <section id="home" class="home container">
-        <div class="row d-flex align-items-center">
-            <div class="col-8">
+        <div class="row d-flex align-items-center flex-md-row flex-column-reverse">
+            <div class="col-12 col-md-8">
                 <h3 class="fw-semibold">Hi! i am</h3>
                 <h1 class="fw-bold">John Doe</h1>
                 <p>A Software Enginer based in Indonesia</p>
                 <a class="btn button" href="" download>Resume</a>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-4 d-flex justify-content-md-end justify-content-center">
                 <img src="images/images/potrait.png" alt="Potrait">
             </div>
         </div>
@@ -90,10 +90,10 @@
     </section>
     <section id="work" class="work container">
         <div class="row d-flex align-items-center gap-5">
-            <div class="col">
+            <div class="col-12 col-md-6">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi harum magnam voluptate adipisci possimus earum dicta sed? Minima praesentium ea reprehenderit iste iure repellendus deleniti facere voluptate repellat. Assumenda tempora blanditiis autem ut error. Laborum, itaque vero laudantium hic totam illum. Dolores consectetur quibusdam ipsum velit provident quidem aperiam qui.</p>
             </div>
-            <div class="col work-img">
+            <div class="col-12 col-md-5 work-img">
                 <div class="work-img-item" id="work-1"> 
                     <img src="images/images/work-1.png" alt="work 1">
                 </div>
@@ -108,24 +108,24 @@
     </section>
     <section id="contact" class="contact container">
         <div class="row d-flex align-items-center">
-            <div class="col">
+            <div class="col-12 col-lg-6">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, maxime sequi sint commodi illum magnam fugiat, assumenda ipsa amet quasi omnis excepturi in necessitatibus reiciendis debitis nisi nostrum! Recusandae hic officia accusantium, laudantium reprehenderit voluptatem tempore quibusdam, quod voluptatum dicta atque explicabo iste exercitationem corrupti eveniet inventore, ipsum sunt. Amet.</p>
-                <div class="row">
+                <div class="row mb-5">
                     <div class="col d-flex align-items-center">
                         <img src="images/images/Facebook.svg" alt="">
-                        <p>@John Doe</p>
+                        <p class="mb-0 ms-2">@John Doe</p>
                     </div>
                     <div class="col d-flex align-items-center">
                         <img src="images/images/Instagram.svg" alt="">
-                        <p>@John Doe</p>
+                        <p class="mb-0 ms-2">@John Doe</p>
                     </div>
                     <div class="col d-flex align-items-center">
                         <img src="images/images/Twitter.svg" alt="">
-                        <p>@John Doe</p>
+                        <p class="mb-0 ms-2">@John Doe</p>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-12 col-lg-6">
                 <form class="contact-form" onsubmit="onFormSubmit(event)">
                     <div class="mb-3">
                       <label for="exampleInputEmail1" class="form-label">Email address</label>
